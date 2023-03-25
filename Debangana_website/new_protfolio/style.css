@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+
+/*css for home page */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    position: absolute;
+    background-color: rgb(240, 239, 239);
+    font-family: 'Gentium Plus', serif;
+    height: 100%;
+    transition: transform 0.3s ease-in ;
+
+}
+
+.sidebar nav {
+    padding: 38px;
+}
+
+.sidebar nav li {
+    list-style-type: none;
+    font-size: 30px;
+    padding: 33px 0px 33px 0px;
+    font-family: 'Gentium Plus', serif;
+
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.sidebar nav li a:hover {
+    text-decoration: none;
+    color: rgb(90, 90, 90);
+
+}
+
+.main {
+    /* background-color: yellow; */
+    width: 90vw;
+    margin: 58px 130px;
+}
+
+.container {
+    display: flex;
+}
+
+.infoContainer {
+    /* background-color: yellowgreen; */
+    height: 55vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hello {
+    font-size: 4em;
+    font-family: 'Source Code Pro', monospace;
+
+}
+
+.name {
+    font-size: 3em;
+    font-weight: bold;
+    font-family: 'Gentium Plus', serif;
+}
+
+.about {
+    font-size: 2.5em;
+    font-weight: bold;
+    font-family: 'Source Code Pro', monospace;
+
+}
+
+.aboutMore {
+    font-size: 2em;
+    font-family: 'Source Code Pro', monospace;
+    align-items: center;
+    margin-top: 23px;
+}
+
+.buttons {
+    margin-top: 34px;
+
+}
+
+.buttons button {
+    padding: 10px 15px;
+    border-radius: 30px;
+    color: white;
+    background: dodgerblue;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 10px;
+    cursor: pointer;
+
+}
+
+.buttons button:hover {
+    color: dodgerblue;
+    background-color: white;
+}
+
+
+.devPic img {
+    width: 278px;
+    height: 55vh;
+}
+
+
+/* css for contact form */
+
+
+.contactForm {
+    font-family: 'Gentium Plus', serif;
+    /* padding-top: 40px; */
+    /* padding-left: 90px; */
+
+}
+
+.contactForm h1 {
+    font-family: 'Source Code Pro', monospace;
+    /* text-align: center; */
+    padding: 20px 0px;
+    margin: 20px 0px;
+}
+
+.contactForm h5 {
+    color: rgb(18, 18, 19);
+    margin-top: -37px;
+    margin-bottom: 23px;
+    font-size: 10px;
+
+}
+
+.contactForm form div {
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+
+}
+.contactForm form{
+    margin: 0 40px;
+}
+
+#clientname {
+    width: 15vw;
+    border-radius: 5px;
+    margin-top: 3px;
+    padding: 2px;
+}
+
+#clientEmail {
+    width: 15vw;
+    border-radius: 5px;
+    margin-top: 3px;
+    padding: 2px;
+}
+
+#clientPhone {
+    width: 15vw;
+    border-radius: 5px;
+    margin-top: 3px;
+    padding: 2px;
+}
+
+#clientenquiry {
+    width: 15vw;
+    border-radius: 5px;
+    margin-top: 3px;
+    padding: 2px;
+
+}
+
+
+#form-check {
+    flex-direction: row;
+}
+
+#isclient {
+    margin: 7px 16px;
+}
+
+
+.btn-primary {
+    padding: 7px;
+    border-radius: 8px;
+    color: white;
+    background: dodgerblue;
+    margin: 8px 0px
+}
+
+.btn-primary:hover {
+    padding: 7px;
+    border-radius: 8px;
+    color: dodgerblue;
+    background: white;
+    cursor: pointer;
+}
+
+
+/* css for blog page */
+
+.blogContainer h1 {
+    text-align: center;
+    margin: 20px 0px;
+    padding: 14px;
+}
+
+
+.blogItem {
+    margin: 20px 10px;
+    font-family: 'Source Code Pro', monospace;
+
+
+}
+
+.blogItem h2 {
+    margin: 11px 0px;
+}
+
+/* css for intro page */
+
+.devInfo h1 {
+    font-family: 'Gentium Plus', serif;
+    padding: 6px 0px;
+    margin: 4px 30px;
+}
+
+.devInfo p {
+    font-family: 'Source Code Pro', monospace;
+    text-align: justify;
+    margin: 0px 30px;
+}
+
+.skillContainer {
+    padding: 10px 0px;
+}
+
+.skillItems {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    margin: 10px 30px;
+    padding: 4px 0px;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+}
+
+.skill {
+    width: 439px;
+    height: 6px;
+    border: 2px solid black;
+}
+
+.hundred {
+    width: 439px;
+    background-color: aqua;
+
+}
+
+.fifty {
+    width: 214px;
+    background-color: aqua;
+
+}
+
+.twentyFive {
+    width: 100px;
+    background-color: aqua;
+
+}
+
+
+
+
+.projectContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.projectItems {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+}
+
+.project img {
+    width: 25vw;
+    height: 30vh;
+    border: 2px solid black;
+    border-radius: 17px;
+    margin: 17px 146px 16px 137px;
+    align-content: center;
+    align-items: center;
+}
+.project img:hover{
+border: 3px solid black;
+
+}
+
+
+.hamburger {
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.ham{
+    margin-top: 3px;
+
+}
+.sidebarGo {
+    transform: translate(-400px, 0px);
+    position: absolute;
+}
+
+.cross {
+    margin-left: 154px;
+    margin-top: 3px;
+}
+
+.clientservices{
+    display:flex;
+    text-align: center;
+
+}
+.services{
+    background-color: rgb(245, 239, 233);
+    width: 50vw;
+    height: 400px;
+    margin: 35px 35px;
+}
+.services:hover{
+    background-color: rgb(240, 239, 239);
+    width: 51vw;
+    height: 402px;
+    margin: 35px 35px;
+
+}
+.student{
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+.chemistry p{
+    text-align: justify;
+}
+
+/* Responsive */
+
+@media(max-width:1615px) {
+    .devInfo{
+        font-size: 10px;
+    }
+    .devPic{
+        display: none;
+    }
+    .main {
+        margin:50px 8px;
+    }
+    .clientservices{
+        display:inline-block;
+        text-align: center;
+    
+    }
+    .extra{
+        margin:87px 230px;
+
+    }
+
+        
+        
+        
+
+}

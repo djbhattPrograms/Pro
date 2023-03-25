@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css">
+  <title>Work_With_Me</title>
+</head>
+
+<body>
+  <center>
+    <h1>
+      <em> <u>CONTACT-DETAILS</u> </em>
+    </h1>
+  </center>
+  <form action="mailto:info@djbhatt01092002@gmail.com" method="post" enctype="text/plain">
+    <label><strong>NAME:</strong></label>
+    <input type="text" /><br />
+    <fieldset>
+      <legend><strong>Gender:</strong></legend>
+      <div>
+        <input type="checkbox" name="Male" id="Male" />
+        <label for="Male">Male</label>
+      </div>
+      <div>
+        <input type="checkbox" name="Female" id="Female" />
+        <label for="Female">Female</label>
+      </div>
+    </fieldset>
+
+    <label><strong>D.O.B:</strong></label>
+    <input type="date" name="D.O.B" id="D.O.B" /><br />
+
+    <label><strong>Contact Number:</strong></label>
+    <input type="number" /><br />
+
+    <label><strong>Email:</strong></label>
+    <input type="email" required /><br />
+
+    <label><strong>Address:</strong></label><br />
+    <textarea name="Address" id="Address" cols="30" rows="10"></textarea><br />
+
+    <label><strong>linkedln-Profile:</strong></label>
+    <input type="text" /><br />
+
+    <label for="Experiance"><strong>Experiance Level:</strong></label>
+    <input type="range" name="Experiance" id="Experiance" min="0" max="10" /><br />
+
+    <label for="Image"><strong>IMAGE:</strong></label>
+    <input type="file" name="Image" id="Image" accept="image/png,image/jpeg" /><br />
+
+    <label><strong>Do you want to share your details? </strong> </label>
+    <input type="checkbox" name="Share" id="share" /><br />
+    
+    <input type="submit" value="Submit" />
+    <input type="reset" value="Reset" />
+  </form>
+</body>
+
+</html>

@@ -1,0 +1,8 @@
+C programming
+|---------------------------------------------------------------------------------------------------------------------
+|>>cd programme .c (to go to the programme or folder)                                                                     
+|>>cd/ or cd..(go back to the previous programme or folder)                                                            
+|>>ls (to know the list of folder)                                                                                                                   
+|>>mkdir folder name (to create a folder or file)                                                                                    
+|>> gcc programme_name.c  and  ./a.out  (to run a file in terminal)  and ./a.exe for windo
+|---------------------------------------------------------------------------------------------------------------------

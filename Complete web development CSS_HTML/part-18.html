@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS_Border_Height_ width_Background</title>
+    <style>
+    #firstpara{
+        background-color: red;
+        height: 50px;
+        width: 200px;
+        border: 2px solid black;
+        border-radius: 4px;
+
+    } 
+    #secondpara{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bold;
+        font-style: italic;
+        text-align: center;
+        background-color: rgb(14, 235, 14);
+        height: 50px;
+        width: 200px;
+        border-top: 2px solid black;
+        border-bottom: 2px solid red;
+        border-right: 2px solid rgb(193, 15, 238);
+        border-left: 2px solid rgb(17, 0, 255);
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+
+    }
+    #thirdpara{
+        height: 500px;px;
+        width: 200px;
+        /* background-image:url('https://miro.medium.com/max/1400/1*mk1-6aYaf_Bes1E3Imhc0A.jpeg'); */
+        /* background-image: url("dj.png "); */
+        background-image: url('https://cdn.pixabay.com/photo/2015/04/19/08/32/marguerite-729510_960_720.jpg');
+        border: 2px solid red;
+        /* ther can be repeat in both x and y  */
+        background-repeat: no-repeat; 
+        /* position defined with y and y coordinate system  */
+        background-position: center center;
+        backface-visibility: hidden;
+
+
+    }    
+    </style>
+
+</head>
+<body>
+    <h1>1st heading</h1>
+    <p id="firstpara"> This is a paragraph</p>
+
+    <h1>2nd heading</h1>
+    <p id="secondpara"> This is a second paragraph</p>
+    <h1> 3rd heading</h1>
+    <p id="thirdpara"> This is a third paragraph</p>
+    
+    
+</body>
+</html>

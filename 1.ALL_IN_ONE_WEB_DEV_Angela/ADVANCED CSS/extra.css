@@ -1,0 +1,41 @@
+/* h1{
+    font-size: 100px;
+}
+@media (min-width: 900px) and (max-width:1000px) {
+    h1 {
+        color: red;
+        font-size: 20px;
+    }
+
+} */
+
+/* @media <type> <feature> */ 
+
+
+
+
+/* here it is screaching a element having parent class ".container-fluid" and chlid class tittle */
+.container .tittle{
+    color: red;
+
+}
+.container-fluid .title{
+    color: green;
+
+}
+
+/* here it is screaching a element having both the classes container and tittle */
+.container.title{
+    color: aqua;
+
+}
+
+/* h1.tittle{
+    color: blue;
+} */
+
+
+/* use id rarely .... use id for sections */
+
+/* inline style > ids > classes > h1  */
+

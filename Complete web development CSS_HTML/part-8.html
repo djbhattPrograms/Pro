@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms / tags </title>
+</head>
+
+<body>
+    <h2> This is a HTML form </h2>
+
+    <!-- The data in the form is save on the mention action link  -->
+    <form action="backend.php">
+        NAME:<input type="text"><br>
+        FATHER NAME:<input type="text"><br>
+        MOTHER NAME:<input type="text"><br>
+        ADDRESS:<input type="text"><br>
+
+
+    </form>
+
+    <hr>
+    <hr>
+    <hr>
+
+    <!-- by using div tag -->
+    <!-- name attrtibute is used the name value to called on the backend of the website -->
+    <form action="backend.php">
+        <!-- label is used if you click the word the writing option is automatically selected..... for-name and id should be same. -->
+        <label for="name">NAME:</label>
+        <div>
+            <input type="text" name="myname" id="name">
+        </div>
+        <div>
+            AGE: <input type="number" name="my_number">
+        </div>
+        <div>
+            <!-- RADIO  is used to selct only one option if name is same in each option  -->
+            Gender: MALE <input type="radio" name="my_gender"> FEMALE <input type="radio" name="my_gender"> OTHER <input type="radio" name="my_gender">
+        </div>
+        <div>
+            D.O.B : <input type="date" name="my_date">
+        </div>
+        <div>
+            FATHER NAME:<input type="text" name="myfathername">
+        </div>
+        <div>
+            MOTHER NAME:<input type="text" name="mymothername">
+        </div>
+        <div>
+             <!-- for large text we use textarea  -->
+            ADDRESS: <br> <textarea name="Address" id="" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            EMAIL:<input type="email" name="myeamil" id=>
+
+        </div>
+        <label for="eligible"> Are you eligible:</label>
+        <div>
+            <input type="checkbox" name="my_eligibility" id="eligible">
+        </div>
+        <div>
+            Write About Yourself: <br> <textarea name="Imp_Yourself" id="" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <label for="car">CAR:</label>
+            <!-- select is used for selection of option in a drawer type format .... here we use option also -->
+            <select name="my_car" id="car">
+                <option value="BMW">BMW</option>
+                <option value="TATA" selected>TATA NANO</option>
+            </select>
+        </div>
+
+ 
+        <div>
+            <input type="button" value="SUBMIT NOW ">
+            <input type="reset" value="RESET NOW">
+        </div>
+
+    </form>
+
+</body>
+
+</html>

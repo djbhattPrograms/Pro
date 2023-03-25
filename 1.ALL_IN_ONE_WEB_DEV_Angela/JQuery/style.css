@@ -1,0 +1,12 @@
+body{
+    background-color: aqua;
+}
+.big-title{
+    color: red;
+    font-size: 100px;
+    font-family: cursive;
+}
+.center{
+    text-align: center;
+    margin: 50px 50px;    
+}

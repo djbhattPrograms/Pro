@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nav+header</title>
+    <style>
+        header {
+            width: 1800px;
+            margin: auto;
+        }
+
+        img {
+            width: 100px;
+            height: 100px;
+            border-radius: 100px;
+            display: block;
+            margin: auto;
+        }
+
+        h3 {
+            text-align: center;
+        }
+
+        .navbar {
+            border: 2px solid black;
+            border-radius: 50px;
+            margin: 0px 0px;
+            padding: 0px 0px;
+            background-color: red;
+        }
+
+        .navbar ul {
+            overflow: auto;
+        }
+
+        .navbar li {
+            list-style: none;
+            float: left;
+        }
+
+        .navbar li a {
+            text-decoration: none;
+            margin: 0px 30px;
+            padding: 0px 10px;
+            color: black;
+            font-weight: bold;
+        }
+
+        .navbar li a:hover {
+            color: white;
+        }
+
+        .navbar input {
+            float: right;
+            margin: 0px 40px;
+            padding: 0px 20px;
+            border-radius: 50px;
+        }
+
+        .screach {
+            margin: 0px 0px;
+            padding: 0px 0px;
+        }
+
+        .container {
+            width: 1800px;
+            margin: auto;
+        }
+
+        .box {
+            box-sizing: border-box;
+            display: inline-block;
+            width: 32%;
+            margin: 30px 10px;
+            padding: 20px 20px;
+            border: 2px solid black;
+            border-radius: 10px;
+            text-align: justify;
+            background-color: azure;
+
+        }
+        .box:hover{
+            background-color: rgb(163, 248, 248);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="dj.png" alt="">
+        <h3>WELCOME TO MY WEBSITE</h3>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">PICTURE</a></li>
+                <li><a href="#">CONTACT US</a></li>
+                <div class="screach">
+                    <input type="text" id="screach" placeholder="SCREACH BAR">
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="box">
+            <h3>This is a heading</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi veritatis non autem corrupti, eveniet
+                repellat necessitatibus similique maiores, distinctio ratione numquam earum deserunt. Maxime animi
+                blanditiis, facere illum impedit ex libero. Incidunt distinctio maxime magnam vitae sed assumenda sit
+                doloribus. Vel eaque possimus iusto? Labore tempora architecto pariatur eius id.</p>
+        </div>
+        <div class="box">
+            <h3>This is a heading</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi veritatis non autem corrupti, eveniet
+                repellat necessitatibus similique maiores, distinctio ratione numquam earum deserunt. Maxime animi
+                blanditiis, facere illum impedit ex libero. Incidunt distinctio maxime magnam vitae sed assumenda sit
+                doloribus. Vel eaque possimus iusto? Labore tempora architecto pariatur eius id.</p>
+        </div>
+        <div class="box">
+            <h3>This is a heading</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi veritatis non autem corrupti, eveniet
+                repellat necessitatibus similique maiores, distinctio ratione numquam earum deserunt. Maxime animi
+                blanditiis, facere illum impedit ex libero. Incidunt distinctio maxime magnam vitae sed assumenda sit
+                doloribus. Vel eaque possimus iusto? Labore tempora architecto pariatur eius id.</p>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+display :flex
+justify-content: center;
+align-items-center;
+-----------------------------
+amination :
+position: relative;
+animation-name: AnimationName;
+animation-duration: 4s;
+animation-iteration-count: 5;(No. of times)
+animation-fill-mode: fowards;(Movement of the animation)
+animation-timing-function: ease-in;
+animation-delay: 1s;
+animation-direction: alternate;
+
+@Keyframes animation name{ 
+            0%{
+                top: 0px;
+                left: 0px;
+            }
+            25%{
+                top:250px ;
+                left:0px ;
+
+
+            }
+            75%{
+                top:250px ;
+                left:250px ;
+
+
+            }
+            100%{
+                top:0px ;
+                left:250px ;
+
+
+            }
+        }
+@keyframes animationName{
+            from {
+                width: 250px;
+
+            }
+
+            to {
+                width: 1200px;
+
+            }
+--------------------------------------
+transition property
+.... smooth continuous change  of countinous entity like color ,font size, rotation etc
+.....have all property like animation
+ transition-property: all;
+ transition-duration: 4s;
+ transition-timing-function: ease-in-out;
+
+----------------------------------
+transform property (change quickly) 
+for gradually movement use transition
+            transform:rotate(360deg)
+            transform: skew(45deg);
+            transform: scale(2);
+            transform: translateX(500px);
+
+
+          

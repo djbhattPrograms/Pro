@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLEXBOX IN CSS</title>
+    <style>
+        .container {
+            height: 900px;
+            width: 1800px;
+            border: 2px solid black;
+            /* make the block element to inline */
+            /* Initialisation the flex properties  */
+            display: flex;
+
+
+            /* flex direction properties <<<<flex flow>>>> */
+
+            /*by defult*/
+            /* flex-direction: row; */
+
+            /* flex-direction: column; */
+            /* flex-direction: column-reverse;it reverse the order of element */
+            /* flex-direction:row-reverse;it reverse the order of element */
+            /* defult value non wrap */
+            /* flex-wrap: wrap;  */
+
+            /* short hand for direction and wrap  */
+            /* flex-flow: row-reverse wrap; */
+
+            /* Horizontal flex propertries */
+            /* all the content in the centre */
+            /* justify-content: center; */
+            /* space is only between the boxes  */
+            /* justify-content: space-between; */
+            /* space around the boxes are equal even at the conners */
+            /* justify-content: space-evenly; */
+            /* equal space both in left and right  */
+            /* justify-content: space-around; */
+
+
+
+            /* vertically flex properties the items  */
+            /* align-items: center; */
+            /* align-items: flex-end; */
+            /* align-items: flex-start; */
+            /* align-items: stretch; */
+
+
+        }
+
+        .item {
+            width: 200px;
+            height: 300px;
+            background-color: tomato;
+            margin: 2px 2px;
+            padding: 2px 2px;
+            border: 2px solid black;
+        }
+
+        #item-1 {
+            /* more the order of the element , the element om the last */
+            order: 3333;
+            /* flex-grow: 2;
+            flex-shrink: 2; */
+
+
+            /* when flex-direction is set to row flex_basis: will control the width */
+            /* when flex-direction is set to column flex_basis: will control the hight */
+            flex-basis: 320px;
+        }
+
+        #item-2 {
+            order: 32;
+            /* flex-grow: 3;
+            flex-shrink: 2; */
+
+
+            /* flex is a shorthand for grow,shrink, basis */
+            /* flex: 2 2 344px; */
+
+
+            align-self: flex-end;
+            align-self: center;
+        }
+
+        #item-3 {
+            order: 89;
+        }
+    </style>
+</head>
+
+<body>
+    <h1> This is a flexbox</h1>
+    <div class="container">
+        <div class="item" id="item-1">first</div>
+        <div class="item" id="item-2">Second</div>
+        <div class="item" id="item-3">third</div>
+        <!--  <div class="item" id="item-4">fourth</div>
+        <div class="item" id="item-5">fifth</div>
+        <div class="item" id="item-6">sixth</div> -->
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+/* ID is unquie // A particular element can't have multiple IDs
+class can be multiple //A particular element can have multiple class  */
+body{
+    background-color: black;
+}
+p,h1{
+    color: white;
+}
+img{
+    background-color: white;
+}
+
+.Chicken_Pic{
+    background-color: white;
+}
+.Broccoli_pic{
+    background-color:greenyellow ;
+}
+img:hover{
+    background-color: black;
+}
+.circular{
+    border-radius: 100%;
+}
+
+#heading{
+    color: aqua;
+}
